@@ -12,7 +12,6 @@ This site is built using **React + Vite** and showcases:
 - Vite
 - CSS, JavaScript
 - React Icons
-- Slick Carousel
 
 ##  Live Link
 [Visit My Portfolio](https://your-live-site-link.com)
