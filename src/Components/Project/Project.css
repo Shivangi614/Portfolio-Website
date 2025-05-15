@@ -1,0 +1,245 @@
+.project {
+  text-align: center;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.project-title {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.project-title h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.highlight {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Alex Brush", cursive;
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-container {
+  height: 100%;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.project-slide {
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.project-format {
+  background: linear-gradient(135deg, rgba(223, 137, 8, 0.6), rgba(180, 21, 255, 0.6));
+  padding: 30px 20px;
+  border-radius: 15px;
+  height: 450px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-format:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 10px 25px rgba(255, 165, 0, 0.5);
+  border: 2px solid white;
+
+}
+
+.project-format h3 {
+  font-size: 24px;
+  color: beige;
+  margin-bottom: 10px;
+  min-height: 50px;
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-description {
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Playfair Display', serif;
+  padding: 10px;
+  max-height: 300px;
+  transition: max-height 0.5s ease;
+}
+
+.project-description.expanded {
+  max-height: 200px;
+  overflow-y: auto;
+  scrollbar-width: none;
+
+}
+
+.project-description.expanded::-webkit-scrollbar {
+  display: none;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech {
+  background: white;
+  color: #B415FF;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.live-link,
+.code-link {
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #DF8908, #B415FF);
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.live-link:hover,
+.code-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(255, 165, 0, 0.5);
+}
+
+/* Slick Dots Customization */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #B415FF;
+}
+@media (max-width: 1028px) {
+
+  .project-title {
+    margin-left: 20px;
+  }
+
+  .project-title h2 {
+    font-size: 70px;
+
+  }
+ .highlight {
+    font-size: 80px;
+  }
+
+  .project-format {
+     width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .project-format h3 {
+    font-size: 22px;
+  }
+  .tech {
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+
+  .project-links {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .live-link,
+  .code-link {
+    padding: 5px 12px;
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .project-title h2 {
+    font-size: 60px;
+    padding: 0;
+  }
+
+  .project-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .project-format {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .project-format h3 {
+    font-size: 22px;
+  }
+
+  .project-description {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .tech-stack {
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .live-link,
+  .code-link {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 468px) {
+
+  .project-title h2 {
+    margin-left: 0px;
+    font-size: 50px;
+
+  }
+
+  .project-format {
+    padding: 15px;
+  }
+
+  .project-format h3 {
+    font-size: 20px;
+  }
+
+  .live-link,
+  .code-link {
+    font-size: 12px;
+  }
+} 
