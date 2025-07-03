@@ -13,6 +13,7 @@ import Workshop from "../../assets/Workshop certificate -FS.pdf";
 import Python_IIT from "../../assets/Participant-Certificate-TMU-Python.pdf";
 import TCS_iON from "../../assets/TCS iON Certificate.pdf";
 import MockOffer from "../../assets/MockOffer.jpg";
+import Internship_Cognifyz from "../../assets/Cognifyz Internship certificate.pdf";
 import bullet from "../../assets/bullet-img.png";
 import office from "../../assets/Office_img.png";
 import university from "../../assets/university-img.png";
@@ -55,7 +56,12 @@ const About = () => {
         <h2>Learning & Professional Growth</h2>
 
         <div className="timeline">
-
+          <div className="timeline-item">
+            <h3>Full Stack Web Development Internship</h3>
+            <p className="organization"><img src={office} />Cognifyz Technologies | <FaCalendar /> April 2025 – May 2025</p>
+            <p className="description"><img src={bullet} /> Completed project-based tasks focusing on full-stack development, API integration, and user experience enhancement. Demonstrated strong commitment, attention to detail, and effective coordination while handling assigned tasks.</p>
+            <a href={Internship_Cognifyz} className="certificate-link"><FaCertificate /> View Letter</a>
+          </div>
           <div className="timeline-item">
             <h3>Mock Offer Letter – Samatribya Bodh 3.0</h3>
             <p className="organization"><img src={university} />Teerthanker Mahaveer University | <FaCalendar /> March 2025</p>
