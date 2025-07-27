@@ -14,7 +14,7 @@ import Python_IIT from "../../assets/Participant-Certificate-TMU-Python.pdf";
 import TCS_iON from "../../assets/TCS iON Certificate.pdf";
 import MockOffer from "../../assets/MockOffer.jpg";
 import Internship_Cognifyz from "../../assets/Cognifyz Internship certificate.pdf";
-import Internship_Celebal from "../../assets/Celebal Technologies Internship certificate.pdf";
+import Internship_Celebal from "../../assets/Celebal Technologies Internship Certificate.pdf";
 import bullet from "../../assets/bullet-img.png";
 import office from "../../assets/Office_img.png";
 import university from "../../assets/university-img.png";
