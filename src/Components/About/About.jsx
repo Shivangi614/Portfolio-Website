@@ -14,6 +14,7 @@ import Python_IIT from "../../assets/Participant-Certificate-TMU-Python.pdf";
 import TCS_iON from "../../assets/TCS iON Certificate.pdf";
 import MockOffer from "../../assets/MockOffer.jpg";
 import Internship_Cognifyz from "../../assets/Cognifyz Internship certificate.pdf";
+import Internship_Celebal from "../../assets/Celebal Technologies Internship certificate.pdf";
 import bullet from "../../assets/bullet-img.png";
 import office from "../../assets/Office_img.png";
 import university from "../../assets/university-img.png";
@@ -57,10 +58,16 @@ const About = () => {
 
         <div className="timeline">
           <div className="timeline-item">
+            <h3>React JS Internship</h3>
+            <p className="organization"><img src={office} />Celebal Technologies | <FaCalendar /> June 2025 – August 2025</p>
+            <p className="description"><img src={bullet} /> I successfully completed a React JS internship at Celebal Technologies, where I gained hands-on experience in building dynamic and responsive web applications. During the internship, I worked on real-world projects involving component-based architecture, state management, routing, and API integration. I also learned best practices in frontend development and improved my skills in creating scalable, user-friendly interfaces.</p>
+            <a href={Internship_Celebal} className="certificate-link"><FaCertificate /> View Certificate</a>
+          </div>
+          <div className="timeline-item">
             <h3>Full Stack Web Development Internship</h3>
             <p className="organization"><img src={office} />Cognifyz Technologies | <FaCalendar /> April 2025 – May 2025</p>
             <p className="description"><img src={bullet} /> Completed project-based tasks focusing on full-stack development, API integration, and user experience enhancement. Demonstrated strong commitment, attention to detail, and effective coordination while handling assigned tasks.</p>
-            <a href={Internship_Cognifyz} className="certificate-link"><FaCertificate /> View Letter</a>
+            <a href={Internship_Cognifyz} className="certificate-link"><FaCertificate />  View Certificate</a>
           </div>
           <div className="timeline-item">
             <h3>Mock Offer Letter – Samatribya Bodh 3.0</h3>
