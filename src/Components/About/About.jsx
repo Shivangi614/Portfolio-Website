@@ -15,6 +15,7 @@ import TCS_iON from "../../assets/TCS iON Certificate.pdf";
 import MockOffer from "../../assets/MockOffer.jpg";
 import Internship_Cognifyz from "../../assets/Cognifyz Internship certificate.pdf";
 import Internship_Celebal from "../../assets/Celebal Technologies Internship Certificate.pdf";
+import Internship_Elevate from "../../assets/Elevate Labs Certificate.png";
 import bullet from "../../assets/bullet-img.png";
 import office from "../../assets/Office_img.png";
 import university from "../../assets/university-img.png";
@@ -57,6 +58,13 @@ const About = () => {
         <h2>Learning & Professional Growth</h2>
 
         <div className="timeline">
+          <div className="timeline-item">
+            <h3>Web Development Internship</h3>
+            <p className="organization"><img src={office} alt="office" /> Elevate Labs | <FaCalendar /> August 2025 – September 2025</p>
+            <p className="description"><img src={bullet} alt="bullet" /> Successfully completed a Web Development Internship at Elevate Labs, recognized under Skill India and MSME, Govt. of India.Gained hands-on experience in full-stack web development, focusing on front-end and back-end technologies including React.js and Node.js.Worked on real-world projects involving API integration, deployment, and performance optimization.Honored as the <strong>Best Performer</strong> 🏆 for outstanding dedication, attention to detail, and continuous learning.</p>
+            <a href={Internship_Elevate} className="certificate-link"><FaCertificate /> View Certificate</a>
+          </div>
+
           <div className="timeline-item">
             <h3>React JS Internship</h3>
             <p className="organization"><img src={office} />Celebal Technologies | <FaCalendar /> June 2025 – August 2025</p>
