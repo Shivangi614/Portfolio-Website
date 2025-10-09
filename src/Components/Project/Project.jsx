@@ -29,6 +29,14 @@ const projects = [
     liveLink: "https://weather-application-zgmr.onrender.com",
     codeLink: "https://github.com/Shivangi614/Weather-Application.git",
   },
+  {
+    title: "e-NPBTPP – Electricity Billing & Payment Portal",
+    description: "e-NPBTPP is a full-stack web portal designed to simplify electricity billing and payments for both administrators and customers. The Admin can upload Excel files containing billing data, which are securely stored and displayed to respective users. Customers can log in using their house number to view their bills and make instant UPI payments through Razorpay integration. The system automatically updates payment status in the Excel sheet upon successful transactions, ensuring real-time accuracy and transparency.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Razorpay API"],
+    liveLink: "https://e-npbtpp-frontend-o23q.onrender.com",
+    codeLink: "https://github.com/Shivangi614/E-NPBTPP.git",
+  }
+  ,
 ];
 
 const Project = () => {

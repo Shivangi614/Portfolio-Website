@@ -29,8 +29,8 @@ const About = () => {
           <h2>About <span className="highlight">Me</span></h2>
           <img src={Profile_Img} alt="Shivangi Jain" />
           <p>
-            Hey there! I’m Shivangi Jain, a passionate <strong>Full Stack Developer </strong>who loves turning ideas into reality through code. Whether it's crafting sleek user interfaces with<strong> React</strong> or building powerful back-end systems with <strong>Node.js and MongoDB</strong>, I thrive on creating seamless, high-performance web applications.<br />
-            From designing <strong>visually stunning e-commerce platforms</strong> to developing <strong>real-time weather</strong> apps and<strong> smart task management systems</strong>, I enjoy blending creativity with functionality. My approach is all about writing clean, efficient code that delivers smooth, engaging user experiences. I believe that technology should not just work—it should <strong>delight and inspire!</strong>
+            Hey there! I’m <strong>Shivangi Jain</strong>, a dedicated <strong>Full Stack Developer</strong> passionate about turning innovative ideas into impactful digital experiences. I specialize in building <strong>modern, responsive web applications</strong> using <strong>React, Node.js, Express,</strong> and <strong>MongoDB</strong>.<br/>
+            With a strong focus on clean architecture, intuitive design, and efficient performance, I love creating solutions that are as elegant as they are powerful. I take pride in writing maintainable, scalable code that brings creativity and functionality together — because great technology doesn’t just work, it <strong>inspires and engages</strong>.
           </p>
         </div>
 
